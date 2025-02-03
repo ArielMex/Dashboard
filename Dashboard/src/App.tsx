@@ -1,4 +1,5 @@
 import React from 'react';
+import Dashboard from './components/user/D';
 import Dashboard from './components/Dashboard'
 import './App.css';
 
