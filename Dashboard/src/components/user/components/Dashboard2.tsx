@@ -1,11 +1,11 @@
 import type React from "react"
 import { useState } from "react"
-import Sidebar from "../components/Sidebar"
-import Header from "../components/Header"
-import DashboardPage from "../components/DashboardPage"
-import ProjectsPage from "../components/ProjectsPage"
-import TeamsPage from "../components/TeamsPage"
-import ResourcesPage from "../components/ResourcesPage"
+import Sidebar from "./Sidebar"
+import Header from "./Header"
+import DashboardPage from "./DashboardPage"
+import ProjectsPage from "./ProjectsPage"
+import TeamsPage from "./TeamsPage"
+import ResourcesPage from "./ResourcesPage"
 import type { User } from "../types/user"
 import "./Dashboard.css"
 
@@ -17,7 +17,7 @@ const currentUser: User = {
   role: "user",
 }
 
-const Dashboard: React.FC = () => {
+const Dashboard2: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [currentPage, setCurrentPage] = useState("dashboard")
 
@@ -56,4 +56,4 @@ const Dashboard: React.FC = () => {
   )
 }
 
-export default Dashboard
+export default Dashboard2
